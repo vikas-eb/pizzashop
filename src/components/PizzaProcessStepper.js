@@ -6,7 +6,6 @@ import Stepper from '@material-ui/core/Stepper';
 import Step from '@material-ui/core/Step';
 import StepLabel from '@material-ui/core/StepLabel';
 import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
 import { Grid } from '@material-ui/core';
 
 import * as service from '../services';
@@ -156,7 +155,7 @@ class PizzaProcessStepper extends React.Component {
 	/**
 	 * all validations will be checked here
 	 */
-	inputsSatisfied = () => {return {validated: true};
+	inputsSatisfied = () => {
 		switch (this.state.activeStep) {
 			case 0:
 				return validations.atLeastOneDoughSelected(this.state.doughs);
