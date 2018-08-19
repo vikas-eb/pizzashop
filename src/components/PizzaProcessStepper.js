@@ -164,7 +164,10 @@ class PizzaProcessStepper extends React.Component {
 			case 2:
 				return validations.addressFilled(this.state.address);
 			default:
-				return true;
+				return {
+					validated: true,
+					errorMessage: ''
+				};
 		}
 	}
 
