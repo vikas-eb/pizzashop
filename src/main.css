@@ -1,0 +1,185 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+#mainDiv {
+	margin-left: 50px;
+}
+
+.logo {
+	height: 100px;
+}
+
+.inline {
+	display: inline;
+}
+
+#bottomDiv {
+	position: absolute;
+	bottom: 0px;
+}
+
+.rightAlign {
+	position: absolute !important;
+	right: 10px;
+}
+
+.leftAlign {
+	position: absolute !important;
+	left: 10px;
+}
+
+.width25 {
+	width: 25% !important;
+}
+
+.width10 {
+	width: 10% !important;
+}
+
+.width20 {
+	width: 20% !important;
+}
+
+.width50 {
+	width: 50% !important;
+}
+
+.width45 {
+	width: 45% !important;
+}
+
+.width90 {
+	width: 90% !important;
+}
+
+.width100 {
+	width: 100% !important;
+}
+
+.visible {
+	display: block !important;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.saneMarginFromUp {
+	margin-top: 20px;
+}
+
+.disabled span {
+	pointer-events:none;
+	color: #dee0e2 !important;
+}
+
+.disabled input {
+	pointer-events:none;
+	color: #dee0e2 !important;
+}
+
+.disabled label {
+	color: #dee0e2 !important;
+}
+
+#orderDetails {
+	margin-left: 30px;
+	width: 400px;
+}
+
+.orderHeader:parent {
+	padding: 5px ! important
+}
+
+.qtyLabel {
+	width: 20px !important;
+	margin: 2px !important;
+	padding: 0px !important;
+	text-align: center;
+	font-size: 15px;
+}
+
+.qtyButton {
+	width: 20px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	min-width: 0px !important;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.listItemStyle {
+	font-size: 15px !important;
+	font-weight: bold;
+}
+
+.listItemContainer {
+	padding: 3px !important;
+	margin-left: 20px !important;
+}
+
+.dialogTitle {
+	padding: 10px !important;
+	text-align: center;
+	border-bottom-width: thin;
+	border-bottom-color: palevioletred;
+	border-bottom-style: dotted;
+}
+
+.sameRow {
+	display: inline-block;
+}
+
+.alignUp {
+	vertical-align: top;
+}
+
+.invoiceHeader, #invoiceTotal, #customerDetails  {
+	font-size: 12px;
+	color: palevioletred;
+}
+
+.invoiceHeader h3 {
+	margin: 2px !important;
+}
+#customerDetails h3 {
+	margin: 2px !important;
+}
+
+.itemsHeaderRow {
+	margin-top: 30px;
+	height: 35px;
+}
+
+.centerText {
+	text-align: center;
+}
+
+.rightText {
+	text-align: right;
+}
+
+.smallText {
+	font-size: 8px;
+}
+
+#invoiceTotal {
+	border-color: palevioletred;
+	border-style: dotted;
+	border-width: thin;
+
+	border-left-color:  white;
+	border-right-color:  white;
+}
+
+.hand {
+	cursor: pointer;
+}
+
+.fixedHeight {
+	height: 100px !important;
+	overflow-y: scroll;
+}
